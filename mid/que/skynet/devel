@@ -1,8 +1,12 @@
-QSCHED="slurm"
-# QMAILTO=""
-QMAIL="ALL"
+SCHEDULER=slurm
+# MAILTO=""
+EVENTS=abe
+JOBQUEUE=devel
+PARENV=mpi #no MPT installed on devel node!
+EXCLUSIVE=yes
+USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
+OPTIONS="-cwd"
+COPY_ENV=yes
+# Fill it with your account to bill!
 # QPROJ=""
-QCONST="devel"
-QPART="batch"
-QSETUP="$HOME/shf3/bin/machines $HOME/shf3/bin/scratch"
-QULIMIT="ulimit -s unlimited; ulimit -l unlimited"
+QUEUE_SETUP="${HOME}/shf3/bin/machines ${HOME}/shf3/bin/scratch ${HOME}/shf3/bin/sched/env/${SCHEDULER}"
