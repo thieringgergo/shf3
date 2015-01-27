@@ -1,8 +1,13 @@
-QSCHED="slurm"
-# QMAILTO=""
-QMAIL="ALL"
+SCHEDULER=slurm
+# MAILTO=""
+EVENTS=abe
+JOBQUEUE=fast
+PARENV=mpi
+EXCLUSIVE=yes
+USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
+OPTIONS="-cwd"
+COPY_ENV=yes
+# Fill it with your account to bill!
 # QPROJ=""
+QUEUE_SETUP="${HOME}/shf3/bin/machines ${HOME}/shf3/bin/scratch ${HOME}/shf3/bin/sched/env/${SCHEDULER}"
 QCONST="ib"
-QPART="fast"
-QSETUP="$HOME/shf3/bin/machines $HOME/shf3/bin/scratch"
-QULIMIT="ulimit -s unlimited; ulimit -l unlimited"
