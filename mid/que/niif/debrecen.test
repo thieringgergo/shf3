@@ -1,11 +1,10 @@
 SCHEDULER=slurm
 # MAILTO=""
-EVENTS=abe
+EVENTS=ALL
 JOBQUEUE=test
 PARENV=mpi
 EXCLUSIVE=yes
 USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
-OPTIONS="-cwd"
 COPY_ENV=yes
 # Fill it with your account to bill!
 # QPROJ=""
