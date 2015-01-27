@@ -8,7 +8,7 @@ Installation
 the framework is a directory hierarchy which you should install into your `$HOME` directory:
 
     cd $HOME
-    git clone git://github.com/hornos/shf3.git
+    git clone git://github.com/thieringgergo/shf3.git
 
 Enable shf3 by editing your `.bashrc` or `.profile`:
 
