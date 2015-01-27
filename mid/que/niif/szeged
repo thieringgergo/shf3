@@ -1,9 +1,12 @@
-SCHEDULER=sge
+SCHEDULER=slurm
 # MAILTO=""
 EVENTS=abe
-JOBQUEUE=szeged.q
+JOBQUEUE=prod
 PARENV=mpi
 EXCLUSIVE=yes
+USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
 OPTIONS="-cwd"
 COPY_ENV=yes
+# Fill it with your account to bill!
+# QPROJ=""
 QUEUE_SETUP="${HOME}/shf3/bin/machines ${HOME}/shf3/bin/scratch ${HOME}/shf3/bin/sched/env/${SCHEDULER}"
