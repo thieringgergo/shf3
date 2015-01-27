@@ -1,7 +1,7 @@
 SCHEDULER=slurm
 # MAILTO=""
 EVENTS=abe
-JOBQUEUE=prod
+JOBQUEUE=test
 PARENV=mpi
 EXCLUSIVE=yes
 USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
