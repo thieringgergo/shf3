@@ -80,8 +80,8 @@ Operator user/pass: op/operator
 
   - Install shf3 packages
   S$ sudo apt-get install git-core
-  S$ git clone git://github.com/hornos/shf3.git
-  S$ git clone git://github.com/hornos/shf3.vre.git
+  S$ git clone git://github.com/thieringgergo/shf3.git
+  S$ git clone git://github.com/thieringgergo/shf3.vre.git
   S$ echo "source \$HOME/shf3/bin/shfrc" | tee $HOME/profile.d/shf3
   S$ echo "source \$HOME/shf3.vre/bin/shfrc" | tee $HOME/profile.d/shf3.vre
   S$ sudo shutdown -h now
