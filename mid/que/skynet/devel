@@ -1,11 +1,9 @@
 SCHEDULER=slurm
 # MAILTO=""
-EVENTS=abe
+EVENTS="ALL"
 JOBQUEUE=devel
-PARENV=mpi #no MPT installed on devel node!
 EXCLUSIVE=yes
 USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
-OPTIONS="-cwd"
 COPY_ENV=yes
 # Fill it with your account to bill!
 # QPROJ=""
