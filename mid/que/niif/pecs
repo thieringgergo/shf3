@@ -1,9 +1,8 @@
 SCHEDULER=slurm
 # MAILTO=""
-EVENTS=ALL
-JOBQUEUE=prod
+EVENTS="ALL"
+JOBQUEUE=uv
 PARENV=mpi
-EXCLUSIVE=yes
 USER_LIMIT="ulimit -s unlimited; ulimit -l unlimited"
 COPY_ENV=yes
 # Fill it with your account to bill!
