@@ -5,7 +5,7 @@ mid_ssh_type=ssh
 mid_ssh_cluster="niif"
 
 # FQDN
-mid_ssh_fqdn="login.budapest.hpc.niif.hu"
+mid_ssh_fqdn="login.budapest2.hpc.niif.hu"
 
 # username
 mid_ssh_user="${USER}"
